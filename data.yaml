@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 47
+names: ['Aircraft-Carrier-Fujian-Class-CHI', 'Aircraft-Carrier-Kiev Class-IND', 'Aircraft-Carrier-Kuznetsov-Class-CHI', 'Aircraft-Carrier-Vikrant-Class-IND', 'Corvette-Azmat-Class-PAK', 'Corvette-Babur-Class-PAK', 'Corvette-Jiangdao-class-056-CHI', 'Corvette-Kamorta-Class-IND', 'Corvette-Khukri-Class-IND', 'Corvette-Kora-Class-IND', 'Corvette-Veer-Class-IND', 'Corvette-Yarmook-Class-PAK', 'Destroyer-Delhi-Class-IND', 'Destroyer-Kolkata-Class-IND', 'Destroyer-Luyang-III-class-052-CHI', 'Destroyer-Rajput-Class-IND', 'Destroyer-Renhai-Class-055-CHI', 'Destroyer-Visakhapatnam-Class-IND', 'Frigate-Brahmaputra-Class-IND', 'Frigate-Godavari-Class-IND', 'Frigate-Shivalik-Class-IND', 'Frigate-Talwar-Class-IND', 'Frigate-Tughril-Class-PAK', 'Frigate-Zulfiquar-Class-PAK', 'Landing-Ship-Austin-Class-IND', 'Landing-Ship-Magar-Class-IND', 'Landing-Ship-Shardul-Class-IND', 'Landing-Ship-Yushen-Class-075-CHI', 'Minesweeper-Pondicherry-Class-IND', 'Patrol-Vessel-Car-Nicobar-Class-IND', 'Patrol-Vessel-L-T-Class-IND', 'Patrol-Vessel-Saryu-Class-IND', 'Patrol-Vessel-Sukanya-Class-IND', 'Research-Vessel-Sagardhwani-Class-IND', 'Submarine-Agosta-Class-PAK', 'Submarine-Akula-Class-IND', 'Submarine-Arihant-Class-IND', 'Submarine-Hangor-Class-PAK', 'Submarine-Jin-Class-CHI', 'Submarine-Kalvari-Class-IND', 'Submarine-Shishumar-Class-IND', 'Submarine-Sindhughosh-Class-IND', 'Submarine-Yuan-Class-CHI', 'Tanker-Aditya-Class-IND', 'Tanker-Deepak-Class-IND', 'Tanker-Komandarm_Fedko_Class-IND', 'Tanker-Moawin-Class-PAK']
+
+roboflow:
+  workspace: ships-kev8a
+  project: military-ship-detection
+  version: 48
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ships-kev8a/military-ship-detection/dataset/48
